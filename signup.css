@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #94b2bb 0%, #03132f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #auth-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+
+  #auth-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+  }
+
+  #auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  #auth-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #9cbaec;
+    color: white;
+    transition: background 0.3s;
+  }
+
+  #auth-container button:hover {
+    background: #fbc2eb;
+    color: #333;
+  }
+
+  #auth-container p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #auth-container a {
+    color: #a6c1ee;
+    text-decoration: none;
+  }
+
+  #auth-container a:hover {
+    text-decoration: underline;
+  }
+  /* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    background: linear-gradient(135deg, #94b2bb 0%, #03132f 100%);
+    background-size: cover;
+  }
+
+  #auth-container {
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: 10px;
+  }
+
+  #auth-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  #auth-container input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #auth-container button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  #auth-container p {
+    font-size: 12px;
+  }
+}
+
+/* Tablets (max-width: 900px) */
+@media (max-width: 900px) {
+  #auth-container {
+    width: 80%;
+    padding: 30px 25px;
+  }
+
+  #auth-container h2 {
+    font-size: 26px;
+  }
+
+  #auth-container input {
+    font-size: 15px;
+  }
+
+  #auth-container button {
+    font-size: 17px;
+  }
+}
+
+/* Small Laptops (max-width: 1200px) */
+@media (max-width: 1200px) {
+  #auth-container {
+    width: 400px;
+    padding: 40px 30px;
+  }
+}
