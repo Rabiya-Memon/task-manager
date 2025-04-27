@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #bcc5cfae, #fac7da);
+  }
+
+  h1 {
+    font-size: 58px;
+   color: rgb(44, 101, 115);
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  button {
+    padding: 15px 30px;
+    font-size: 30px;
+    color: #fff;
+    background: #ff7e5f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background: #feb47b;
+  }
+  /* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+  body {
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+/* Tablets (max-width: 900px) */
+@media (max-width: 900px) {
+  body {
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 22px;
+    padding: 12px 24px;
+  }
+}
+
+/* Small Laptops (max-width: 1200px) */
+@media (max-width: 1200px) {
+  body {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
+  button {
+    font-size: 26px;
+  }
+}
